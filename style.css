@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Bronz;
+    src: url("assets/fonts/bronz.ttf");
+}
+@font-face {
+    font-family: headton;
+    src: url("assets/fonts/Headton.ttf");
+}
+
+html {
+    background-color: #101010;
+}
+.Baslik {
+    color:azure;
+    font-size: 60px;
+    font-family: Bronz;
+}
