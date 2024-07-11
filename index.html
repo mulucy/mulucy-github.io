@@ -4,6 +4,21 @@
         <title>.::. @mulucy .::.</title>
         <link rel="icon" type="image/x-icon" href="assets/icons/mulucy.ico">
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+        
+            var baslik = document.title;
+            var yeniBaslik = "Hoop! Beni Unutma :)";
+    
+            window.onblur = function(){
+            document.title = yeniBaslik;
+            }
+    
+            window.onfocus = function()
+            {
+                document.title = baslik;
+            }
+        
+        </script>
 
     </head>
     <body>
