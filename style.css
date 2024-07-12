@@ -9,9 +9,42 @@
 
 html {
     background-color: #101010;
+    cursor: url('assets/images/normal.png'), default;
+    
 }
 .Baslik {
     color: azure;
     font-size: 60px;
     font-family: Bronz;
+}
+.PButton {
+    color:azure;
+    font-size: 40px;
+    font-family: headton;
+    background-color: #101010;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    border-color: black;
+    cursor: url('assets/images/pointer.png'), pointer;
+
+}
+.container1 {
+    height: 40px;
+    position: relative;
+    border: 6px #101010;
+    justify-content: center;
+}
+.Paragraf  {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+
+}
+.secret {
+    
+    color: #101010;
+    background-color: #101010;
+    font-size: 20px;
+    font-family: headton;
+    cursor: url('assets/images/pointer.png'), pointer;
 }

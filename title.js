@@ -3,13 +3,14 @@ var yeniBaslik = "Beni Unutma, Unutursan Kahrolurum.";
 //var icon = "assets/icons/mulucy.ico";
 //var yeniIcon = "assets/icons/sad.ico";
 window.onblur = function(){
+  //document.getElementByID("ikon").href = yeniIcon;
   document.title = yeniBaslik;
-  //document.getElementByID("icon").href = yeniIcon;
+ 
   
   }
     
 window.onfocus = function() {
-
- document.title = baslik;
-//document.getElementByID("icon").href = icon;
+  //document.getElementByID("ikon").href = icon;
+  document.title = baslik;
+ 
 }
