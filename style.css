@@ -11,10 +11,11 @@ html {
     background-color: #101010;
 }
 .Baslik {
-    color:azure;
+    color: azure;
     font-size: 60px;
     font-family: Bronz;
 }
 .BaslikHref {
     text-decoration: none;
+    color: azure;
 }
