@@ -17,6 +17,13 @@ html {
     font-size: 60px;
     font-family: Bronz;
 }
+.Baslik_2 {
+    color: azure;
+    font-size: 40px;
+    font-family: Bronz;
+    position: relative;
+    
+}
 .PButton {
     color:azure;
     font-size: 40px;
@@ -40,6 +47,13 @@ html {
     color:white;
 
 }
+.Paragraf2  {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    margin-top: 20px;
+
+}
 .secret {
     
     color: #101010;
@@ -47,4 +61,14 @@ html {
     font-size: 20px;
     font-family: headton;
     cursor: url('assets/images/pointer.png'), pointer;
+}
+footer {
+    display: flex;
+    position: relative;
+    top:250px;
+    justify-content: center;
+    background-color: #111011;
+    color: #fff;
+    padding: 20px;
+
 }
