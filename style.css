@@ -62,7 +62,7 @@ html {
     font-family: headton;
     cursor: url('assets/images/pointer.png'), pointer;
 }
-footer {
+.footer {
     display: flex;
     position: relative;
     top:250px;
@@ -71,4 +71,26 @@ footer {
     color: #fff;
     padding: 20px;
 
+}
+.footer2 {
+    display: flex;
+    position: relative;
+    top:1000px;
+    justify-content: center;
+    background-color: #111011;
+    color: #fff;
+    padding: 20px;
+}
+.code {
+    color:azure;
+    background-color: black;
+    font-size: 30px;
+
+}
+.code_div {
+    height:20px;
+    border-radius: 30px 30px 30px 30px;
+    border: 5px #990000;
+    position: relative;
+    justify-content: center;
 }
