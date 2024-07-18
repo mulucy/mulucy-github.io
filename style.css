@@ -24,6 +24,12 @@ html {
     position: relative;
     
 }
+.Baslik_3 {
+    color:azure;
+    font-size: 30px;
+    font-family: Bronz;
+    position : relative;
+}
 .PButton {
     color:azure;
     font-size: 40px;
@@ -93,4 +99,7 @@ html {
     border: 5px #990000;
     position: relative;
     justify-content: center;
+}
+.Button_IMG  {
+    cursor: url("assets/images/pointer.png"),pointer;
 }
