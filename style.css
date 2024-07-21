@@ -86,6 +86,16 @@ html {
     background-color: #111011;
     color: #fff;
     padding: 20px;
+
+}
+.footer3 {
+    display: flex;
+    position: relative;
+    top:1200px;
+    justify-content: center;
+    background-color: #111011;
+    color: #fff;
+    padding: 20px;
 }
 .code {
     color:azure;
